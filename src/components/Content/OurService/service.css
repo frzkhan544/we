@@ -1,0 +1,137 @@
+
+/* ##### Service Area CSS ##### */
+
+.service_single_content {
+    position: relative;
+    z-index: 1;
+    transition: all .3s ease-in-out;
+}
+.light-version .service_single_content.food{
+    background: #183b56;
+    padding-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.light-version .service_single_content.food h6{
+    color: #fff
+}
+.light-version .service_single_content.food h5{
+    position: absolute;
+    top: 17px;
+    right: -49px;
+    transform: rotate(41deg);
+    background: red;
+    padding: 10px 58px;
+    color: #fff;
+}
+.pizza-prop{
+
+}
+.pizza-prop li{
+    padding: 5px 0
+}
+.pizza-prop p{
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: 50%;
+    color: #cfc9c9 !important;
+}
+.pizza-prop span{
+    width: 50%;
+    color: #fff;
+}
+.service_single_content .service_icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+.embed-video {
+    max-width: 250px !important;
+    height: auto !important;
+}
+.light-version .how .service_single_content{
+    background: #fff
+}
+.how .service_icon{
+    padding: 30px;
+    position: relative;
+    border: 2px solid #00dcd8;
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+    max-width: 140px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.how_icon{
+    margin-bottom: 30px
+}
+.how .service_icon .white-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how .service_single_content:hover .service_icon {
+    background: #fff
+}
+.how .service_single_content:hover .white-icon{
+    visibility: hidden;
+}
+.service_icon .step-num{
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    background:#21d397 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+}
+.service_icon{
+    margin-bottom: 30px;
+    display: inline;
+    max-width: 80px
+}
+.service_icon.max{
+    max-width: 100px
+}
+.service_single_content h6 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #183b56 !important
+}
+.bo-br{
+    position: relative;
+    width: 200px;
+    height: 6px;
+    margin-top: 30px;
+    background-color: #5ba5fb;
+    border-radius: 5px;
+}
+.side-feature-list-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.check-mark-icon {
+    margin-right: 16px;
+    width: 30px;
+    height: 30px
+}
+.foot-c-info {
+    font-weight: 500;
+}

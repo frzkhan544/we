@@ -1,0 +1,215 @@
+
+/* ##### Partners Area ##### */
+.partners{
+    padding: 0 0 70px
+}
+.partner-box{
+    border: 1px solid #25cbd3;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0d003b;
+    margin-bottom: 30px;
+    transition: all .3s ease-in-out;
+}
+.partner-box:hover{
+    background: #25cbd3;
+    cursor: pointer;
+}
+.b-text {
+    color: #1f2471 !important;
+}
+.sky-text {
+    color: #5ba5fb !important;
+}
+.d-blue{
+    color: #13287e !important
+}
+.bold{
+    font-weight: 600 !important
+}
+.normal{
+    font-weight: 500
+}
+/* ##### About Us Area ##### */
+.double-bg{
+    /*background: url('../img/svg/section-bg.svg') no-repeat center left;*/
+    background-size: contain
+}
+.double-bg-1{
+    position: relative;
+    /*background: url('../img/bg-img/section-bg.png') no-repeat top right;*/
+    background-size: cover
+}
+.double-bg-2{
+    position: relative;
+    /*background: url('../img/bg-img/header6.jpg') no-repeat top right;*/
+    background-size: cover
+}
+.about-us-area {
+    position: relative;
+    z-index: 1;
+}
+.about-us-area.bg{
+    /*background: url('../img/bg-img/about-sec.jpg') no-repeat top right;*/
+    background-size: cover
+}
+.who-we-contant h4 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600
+}
+.trial-bg{
+    /*background: url("../img/bg-img/trial-bg.png") center no-repeat;*/
+    background-size: cover;
+}
+.our-mission-area {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    height: 400px !important;
+}
+
+.our-mission-content {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(72, 52, 212, 0.95);
+    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+}
+
+.single-mission {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.single-mission i {
+    font-size: 50px;
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+}
+
+.single-mission h6 {
+    margin-bottom: 15px;
+}
+
+.single-mission p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.welcome-meter {
+    position: relative;
+    z-index: 1;
+}
+.welcome-meter.arficial{
+    position: relative;
+    z-index: 1;
+    height: 427px;
+    /*background: url(../img/svg/ai-illustration.svg) no-repeat;*/
+    background-size: 137%;
+    background-position: center center;
+}
+@media (max-width: 992px){
+    .welcome-meter.arficial{
+        background-size: 100%;
+    }
+}
+.growing-company p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.growing-company p .counter {
+    color: #fff;
+}
+
+.box-shadow:hover {
+    -webkit-box-shadow: 0px 25px 36px 0px rgba(154, 161, 171, 0.24);
+    box-shadow: 0px 25px 36px 0px rgba(154, 161, 171, 0.24);
+    top: -3px;
+}
+.article {
+    background: #fff;
+    padding: 25px 15px 15px;
+    border: 1px solid #00dcd8;
+    margin-bottom: 30px;
+    text-align: left;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.article__icon {
+    font-size: 40px;
+    position: relative;
+    color: #00dcd8;
+}
+.article__icon .flag-img{
+    position: absolute;
+    bottom: 19.8%;
+    width: 30px;
+    right: 12.7%;
+}
+.article__title {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #333
+}
+.article p{color: #888}
+.article:hover,
+.article.hover{
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%); 
+}
+.intro{
+    margin-top: -50px;
+}
+.article.special{
+    background: #287ff9;
+    border:none;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.article.special .article__title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff
+}
+.article.special p{
+    color: #fff
+}
+.article.special .i-icon{
+    color: #2073e7;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    font-weight: 600;
+    opacity: 0.4;
+    transition: all .4s ease-in-out;
+}
+.article.special:hover .i-icon{
+    bottom: -10%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.article:hover .article__title,
+.article:hover p,
+.article:hover .article__icon,
+.article.hover .article__title,
+.article.hover p,
+.article.hover .article__icon {
+    color: #fff 
+}
